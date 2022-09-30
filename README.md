@@ -1,5 +1,5 @@
 ## Xiteb UI/UX Dev Assignment
 
-### Live URL -
+### Live URL - https://xiteb.netlify.app/
 
 <img src="./assets/images/mockup.png">
