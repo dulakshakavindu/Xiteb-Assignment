@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/styles.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Xiteb Hotels Pvt Ltd</title>
+   </head>
+   <body>
+      <!-- mobile header -->
+
+      <div class="mobile-header">
+         <div class="mobile-flex-container">
+            <img src="./assets/images/xiteb-logo-new.png" alt="" />
+            <i class="fa-solid fa-bars"></i>
+         </div>
+         <div class="mobile-dropdown">
+            <div><a href="#">ABOUT</a></div>
+            <div><a href="#">ROOMS & SUITES</a></div>
+            <div><a href="#">DINING</a></div>
+            <div><a href="#">EXPERIENCE</a></div>
+            <div><a href="#">EVENTS</a></div>
+            <div><a href="#">GALLERY</a></div>
+            <div><a href="#">OFFERS</a></div>
+            <div><a href="#">MORE</a></div>
+            <div><a href="#">FIND A HOTEL</a></div>
+         </div>
+      </div>
+
+      <!-- ------------- -->
+
+      <header class="header">
+         <div class="row-1-container">
+            <div class="container">
+               <div class="row-1">
+                  <div class="flex-item-1">
+                     <img class="logo" src="./assets/images/xiteb-logo-new.png" alt="Xiteb" />
+                  </div>
+                  <div class="flex-item-2">
+                     <ul>
+                        <li>
+                           <a href="#"> <i class="fa-regular fa-user"></i> Sign In</a>
+                           <a href="#">Join Now</a>
+                           <a href="#">Find Reservations</a>
+                           <a href="#"> <i class="fa-solid fa-globe"></i> English</a>
+                           <a href="#">LKR</a>
+                           <a href="#"><i class="fa-solid fa-mobile"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row-2-container">
+            <div class="container">
+               <div class="row-2">
+                  <div class="flex-item-1">
+                     <ul>
+                        <li>
+                           <div>
+                              <a href="#">About</a>
+                              <a href="#">Rooms & Suites</a>
+                              <a href="#">Dining</a>
+                              <a href="#">Experience</a>
+                              <a href="#">Events</a>
+                              <a href="#">Gallery</a>
+                              <a href="#">Offers</a>
+                              <a href="#">More</a>
+                           </div>
+                           <div class="book-hotel">
+                              <a href="#">Find A Hotel</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row-3-container">
+            <div class="container">
+               <p>
+                  ANNOUNCEMENT: Our commitment to you.
+                  <span> More</span>
+               </p>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+         </div>
+         <div class="row-4-container">
+            <div class="slider">
+               <div class="container slider-content-flex">
+                  <h1 class="slider-title">Xiteb Hotels Colombo</h1>
+                  <p class="slider-para">A personal tropical sanctuary set within the heart of the city</p>
+               </div>
+               <div class="container">
+                  <div class="search-box">
+                     <div class="search-item-1">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>30 Sep 2022</p>
+                        <label>1 night</label>
+                        <p>01 Oct 2022</p>
+                     </div>
+                     <div class="search-item-2">
+                        <i class="fa-regular fa-user"></i>
+                        <p>1 Room,</p>
+                        <p>1 Adult,</p>
+                        <p>0 Children</p>
+                     </div>
+                     <div class="search-item-3">
+                        <i class="fa-regular fa-clipboard"></i>
+                        <p>Speacial Code</p>
+                     </div>
+                     <div class="search-item-4">
+                        <p>Search</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="destination-sec">
+         <div class="container">
+            <h2>Our Destinations</h2>
+            <div class="destination-box">
+               <div class="destination-dropdown">
+                  <input type="text" class="selected-value" placeholder="Habarana Village by Cinnamon" />
+                  <span class="destination-select-arrow">
+                     <i class="fa-solid fa-angle-down"></i>
+                  </span>
+               </div>
+               <div class="rest-of-the-options">
+                  <div onclick="show('Cinnamon Velifushi Maldives')" class="other-selected-value">Cinnamon Velifushi Maldives</div>
+                  <div onclick="show('Cinnamon Life')" class="other-selected-value">Cinnamon Life</div>
+                  <div onclick="show('Cinnamon Grand Colombo')" class="other-selected-value">Cinnamon Grand Colombo</div>
+                  <div onclick="show('Cinnamon Lakeside Colombo')" class="other-selected-value">Cinnamon Lakeside Colombo</div>
+                  <div onclick="show('Cinnamon Red Colombo')" class="other-selected-value">Cinnamon Red Colombo</div>
+                  <div onclick="show('Cinnamon Bentota Beach')" class="other-selected-value">Cinnamon Bentota Beach</div>
+                  <div onclick="show('Cinnamon Bey Beruwala')" class="other-selected-value">Cinnamon Bey Beruwala</div>
+                  <div onclick="show('Hikka Tranz by Cinnamon')" class="other-selected-value">Hikka Tranz by Cinnamon</div>
+                  <div onclick="show('Cinnamon Wild Yala')" class="other-selected-value">Cinnamon Wild Yala</div>
+                  <div onclick="show('Trinco Blu by Cinnamon')" class="other-selected-value">Trinco Blu by Cinnamon</div>
+                  <div onclick="show('Cinnamon Citadel Kandy')" class="other-selected-value">Cinnamon Citadel Kandy</div>
+               </div>
+               <div class="destination-image-box">
+                  <div class="discover-more-details">
+                     <div class="flex-item-1">
+                        <img class="img-1" src="./assets/images/srilanka.png" alt="" />
+                        <img class="img-2" src="./assets/images/habarana-image.jpg" alt="" />
+                     </div>
+                     <div class="flex-item-2">
+                        <h3>Habarana Village by Cinnamon</h3>
+                        <p>Experience affordable rustic barefoot type elegance, which is designed to reflect the rural environs and simplicity of the local village life surrounded by rich biodiversity.</p>
+                        <button>Discover More</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="hilton-sec">
+         <div class="container">
+            <h2>Take your stay farther</h2>
+            <p>Experience more with our exclusive offers and deals.</p>
+            <div class="offer-wrapper">
+               <a href="#">
+                  <div class="pos-relative">
+                     <img src="./assets/images/offer-image-1.jpg" alt="" />
+                     <p>Join Hilton Honors & Get Up to 4,500 Points</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="pos-relative">
+                     <img src="./assets/images/offer-image-2.jpg" alt="" />
+                     <p>Book Ahead & Save Up to 20%</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="pos-relative">
+                     <img src="./assets/images/offer-image-3.jpg" alt="" />
+                     <p>Multiply Your Points</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="pos-relative">
+                     <img src="./assets/images/offer-image-4.jpg" alt="" />
+                     <p>Enjoy Another Night On Us</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="pos-relative">
+                     <img src="./assets/images/offer-image-5.jpg" alt="" />
+                     <p>Park & Stay with Hiltons</p>
+                  </div>
+               </a>
+               <a href="#">
+                  <div class="pos-relative">
+                     <img src="./assets/images/offer-image-6.jpg" alt="" />
+                     <p>Make Your Stay Even Sweeter</p>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </section>
+      <section class="offers-sec">
+         <div class="container">
+            <h2>Offers</h2>
+            <p>Experience more with our exclusive offers and deals.</p>
+            <div class="offer-flex-cards">
+               <div class="offer-card pos-relative">
+                  <img src="./assets/images/price-offer-img-1.webp" alt="" />
+                  <div>
+                     <label class="absolute-txt">Member exclusive</label>
+                     <label>Rooms & Suites</label>
+                     <h4>Shangri–La Circle Exclusive Member Rate with Breakfast</h4>
+                     <p class="offer-para">Exclusive Member Rate with Breakfast for Shangri-La Circle member.</p>
+                     <p class="offer-price">From <span class="dark-txt">LKR 65,446.20</span> Average Per Night</p>
+                     <button>View Details</button>
+                  </div>
+               </div>
+               <div class="offer-card pos-relative">
+                  <img src="./assets/images/price-offer-img-2.webp" alt="" />
+                  <div>
+                     <label class="absolute-txt">Member exclusive</label>
+                     <label>Rooms & Suites</label>
+                     <h4>Shangri–La Circle Exclusive Member Rate</h4>
+                     <p class="offer-para">Exclusive Member Rate for Shangri-La Circle member.</p>
+                     <p class="offer-price">From <span class="dark-txt">LKR 58,174.40</span> Average Per Night</p>
+                     <button>View Details</button>
+                  </div>
+               </div>
+               <div class="offer-card pos-relative">
+                  <img src="./assets/images/price-offer-img-3.webp" alt="" />
+                  <div>
+                     <label class="absolute-txt">Member exclusive</label>
+                     <label>Rooms & Suites</label>
+                     <h4>Book Early and Save with Flexibility</h4>
+                     <p class="offer-para">Book in advance and save up to 15% with complimentary date changes.</p>
+                     <p class="offer-price">From <span class="dark-txt">LKR 50,902.60 </span> Average Per Night</p>
+                     <button>View Details</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-wrapper">
+               <div class="col-1">
+                  <h3>About</h3>
+                  <ul>
+                     <li>
+                        <a href="#">About Xiteb Hotels & Resorts</a>
+                        <a href="#">Media & Accolades</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">CSR & Sustainability</a>
+                        <a href="#">Xiteb Group</a>
+                        <a href="#">Xiteb Air</a>
+                        <a href="#">Nature Trails</a>
+                        <a href="#">Xiteb Box Office</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Privacy Statement</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-2">
+                  <h3>Get in Touch</h3>
+                  <ul>
+                     <li><a href="">Know Sri Lanka</a></li>
+                     <li><a href="">Know Maldives</a></li>
+                     <li><a href="">Contact Us</a></li>
+                     <li><a href="">FAQs</a></li>
+                  </ul>
+                  <h3 class="section-txt">Sections</h3>
+                  <ul>
+                     <li><a href="">Careers</a></li>
+                     <li><a href="">Blog</a></li>
+                  </ul>
+               </div>
+               <div class="col-3">
+                  <h3>Follow Us</h3>
+                  <ul>
+                     <li>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                     </li>
+                     <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                     </li>
+                     <li>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                     </li>
+                     <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                     </li>
+                     <li>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                     </li>
+                  </ul>
+                  <h3 class="subscribe-form">Get Xiteb in your inbox</h3>
+                  <div class="input-box">
+                     <input class="input" type="email" class="form-control" placeholder="Email Address" />
+                     <span class="input-group-btn">
+                        <img src="./assets/images/right-arw.svg" alt="" />
+                     </span>
+                  </div>
+                  <div class="checkbox">
+                     <div class="flex-item-1">
+                        <div class="circle"></div>
+                        <i class="fa-solid fa-check"></i>
+                     </div>
+                     <div class="flex-item-2">
+                        <p>
+                           By Checking this box, I consent to the processing of my Personal Data by Cinnamon for the purpose and within the Conditions set out in this form and the
+                           <span> <a href="#">Xiteb Data Protection Policy</a></span>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="./assets/js/script.js"></script>
+   </body>
+</html>
